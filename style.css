@@ -1,0 +1,228 @@
+* {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+
+img {
+  float: left;
+  padding: 20px 60px;
+}
+
+.left-nav {
+  float: left;
+}
+
+.left-nav ul li {
+  display: inline-block;
+  padding: 0 5px;
+  margin-top: 30px;
+}
+
+
+.right-nav ul li {
+  display: inline-block;
+  padding: 0 5px;
+  margin-top: 30px;
+  margin-right: 50px;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+}
+
+.right-nav {
+  float: right;
+}
+
+.main-nav::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.main-nav {
+  background-color: #0D325A;
+  text-align: center;
+}
+
+.main-title {
+  width: 50%;
+  float: left;
+}
+
+.main-title h2 {
+  font-size: 45px;
+  font-weight: bold;
+  color: white;
+  padding-bottom: 40px;
+}
+
+.main-title a {
+  font-size: 12px;
+  padding: 10px;
+  border-radius: 3px;
+  text-decoration: none;
+  color: white;
+  background-color: green;
+}
+
+.title {
+  padding: 80px 70px;
+  background-image: url(img/vecchi.JPG);
+  background-size: 100% 100%;
+}
+
+.title::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.first-header {
+  background-color: grey;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.first-header h4 {
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+
+.first-header h5 {
+  font-size: 18px;
+}
+
+.container {
+  align-items: center;
+  text-align: center;
+  width: 90%;
+  background-color: white;
+  padding-bottom: 50px;
+  border-bottom: 0.5px solid grey;
+}
+
+.box {
+  width: 30%;
+  align-items: center;
+  float: left;
+  padding: 23px;
+  margin-right: 40px;
+}
+
+
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.second-section {
+  width: 75%;
+  margin-top: 50px;
+  padding-bottom: 80px;
+}
+
+.big-img img {
+  width: 50%;
+  float: left;
+}
+
+.text {
+  width: 40%;
+  float:right;
+  margin-top: 80px;
+}
+
+.text h3 {
+  font-size: 30px;
+}
+
+.text p {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.second-section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.choose-a-plan {
+  background-color: grey;
+  padding: 40px;
+}
+
+.blue-section {
+  width: 100%;
+  background-color: #0D325A;
+}
+
+.lesson-text {
+  width: 45%;
+  float: left;
+  margin-top: 80px;
+  padding: 50px 80px;
+}
+
+.lesson-text h3 {
+  font-size: 30px;
+  color: white;
+}
+
+.lesson-text p {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.lesson-text a {
+  color: rgb(110, 174, 235);
+}
+
+.pc-img img {
+  width: 50%;
+  float: right;
+  padding: 50px 80px;
+  margin-right: 20px;
+}
+
+.blue-section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.wrapper {
+  display: block;
+  width: 50%;
+  text-align: center;
+}
+
+.image-section img {
+  width: 100%;
+  height: 300px;
+  display: block;
+}
+
+.wrapper h2 {
+  font-size: 30px;
+}
+
+.wrapper h6 {
+  font-size: 14px;
+  margin: 10px;
+}
+
+.wrapper p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
