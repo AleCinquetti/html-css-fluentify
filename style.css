@@ -205,6 +205,7 @@ li a {
   display: block;
   width: 50%;
   text-align: center;
+  padding-bottom: 80px;
 }
 
 .image-section img {
@@ -225,4 +226,63 @@ li a {
 .wrapper p {
   font-size: 16px;
   margin-bottom: 10px;
+}
+
+.high-footer {
+  background-color: rgb(5, 5, 70);
+  padding: 40px;
+}
+
+.high-footer h2 {
+  font-size: 28px;
+  color: white;
+}
+
+.high-footer h5 {
+  margin-top: 5px;
+  font-size: 18px;
+  color: white;
+}
+
+.low-footer-container {
+  width: 85%;
+}
+
+.low-footer {
+  background-color: #0f335a;
+  padding: 60px;
+}
+
+.links {
+  float: left;
+  color: white;
+}
+
+.links h5 {
+  padding: 5px 0;
+}
+
+.links ul li {
+  list-style: none;
+  padding: 10px 0;
+}
+
+.copyright {
+  float: right;
+  color: white;
+  text-align: right;
+}
+
+.copyright h4 {
+  margin: 40px 0 40px 0;
+}
+
+.copyright p {
+  padding: 3px;
+}
+
+.low-footer::after {
+  content: "";
+  display: table;
+  clear: both;
 }
