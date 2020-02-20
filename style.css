@@ -358,23 +358,94 @@ header {
   font-weight: 500;
 }
 
-.student {
-  width: 30%;
-  display: inline-block;
+.job-container {
+  margin-top: 30px;
+  width: 80%;
+  padding-bottom: 150px;
 }
 
-.student img {
-  width: 150px;
-  height: 60px;
+.job-container h2 {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(68, 67, 70);
+}
+
+.structure {
+  width: 25%;
+  float:left;
+  margin-left: 65px;
+  margin-top: 80px;
+}
+
+.structure h3 {
+  padding-top: 50px;
+  font-size: 18px;
+  color: rgb(68, 67, 70);
+  font-weight: 600;
+  margin-top: 10px;
+}
+.structure p {
+  font-size: 15px;
+  padding: 15px 0;
+  color: rgb(125, 124, 126);
+  font-weight: 400;
+}
+
+.structure hr {
+  margin-bottom: 30px;
+}
+
+.structure #blue {
+  height: 5px;
+  background-color: rgb(88, 147, 208);
+}
+
+.structure #orange {
+  height: 5px;
+  background-color: rgb(240, 115, 0);
+}
+
+.structure #green {
+  height: 5px;
+  background-color: #7fb802;
+}
+
+.structure #stud {
+  color: rgb(88, 147, 208);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.structure #work {
+  color: rgb(240, 115, 0);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.structure #business {
+  color: #7fb802;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.structure .job {
+  width: 40px;
+  height: 40px;
+  padding: 0;
   display: block;
 }
+
+.job-container::after {
+  content: "";
+  display: table;
+  clear:both;
+}
+
 
 .high-footer {
   background-color: #0D325A;
   padding: 40px 80px;
 }
-
-
 
 .high-footer h2 {
   font-size: 28px;
